@@ -1,0 +1,519 @@
+/* style.css */
+
+/* Basic styles */
+body {
+    font-family:'Lato' sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Rakkas;
+    display: flex;
+    margin-top: 17px;
+}
+#pages {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato' sans-serif;
+  color: #9A9A9A;
+  margin-right: 20px;
+  margin-top: 25px;
+  gap: 50px;
+}
+.mainhome {
+  color: #231F20;
+}
+.icons {
+    display: flex;
+    gap: 0.8em;
+}
+
+.search-bar {
+    padding: 1em;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: 2px solid #c2c2c2;
+}
+
+main {
+    padding: 1em;
+}
+h2 {
+  font-family: 'Lato' sans-serif;
+  font-size: 35px;
+  color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.new-categories, .clearance-sales {
+    margin-left: 25px:
+    background-color: #FFF4E2;
+    ;
+}
+.new-categories h2, .clearance-sales h2 {
+    margin-bottom: 1em;
+}
+
+.category-item, .sale-item {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.category-item img, .sale-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.category-info {
+    margin-top: 0.5em;
+}
+
+.category-info span {
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.category-info h3 {
+    margin: 0.5em 0;
+}
+
+.category-info button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.sale-item {
+    position: relative;
+}
+.sale-item img {
+  max-height: 100%S;
+}
+
+.sale-item .discount {
+    position: absolute;
+    top: 17px;
+    right: 11px;
+    background-color: white;
+    color: black;
+    padding: 0.4em 0.6em;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #231F20;
+    border-top: 1px solid #ddd;
+}
+
+.nav-icons {
+    font-size: 2.0em;
+    color: #FFFFFF;
+    display: flex;
+    gap: 300px;
+}
+#home_icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+#home {
+    color: #231F20;
+}
+#buddy {
+    color: #F48534;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    border-radius: 20px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 1px 1px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+ .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot.active {
+    width: 50px;
+    background-color: #fcbf8c;
+    border-radius: 25px;
+  }
+  
+  .active, .dot:hover {
+    background-color: #EEB785;
+    border-radius: 15px;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  a {
+    color: #543920;
+      }
+  .button-1 {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lato' sans-serif;    
+    padding: 12px;
+    color: #543920;
+    font-size: 18px;
+  }
+  .topleft {
+    position: absolute;
+    bottom: 350px;
+    right: 0px;
+    border-radius: 10px;
+    background-color: #DD9757;
+    padding: 10px;
+    font-family: 'Plus Jakarta Sans' open sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 60px;
+    
+  }
+  .mySlides img {
+    border-radius: 15px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80vh;
+    margin-bottom: 40px;
+  
+  }
+  a {
+    text-decoration: none;
+    color: #9A9A9A;
+  }
+  .content h3 {
+    font-size: 36px;
+    font-family: 'Lato' sans-serif;
+  }
+  .home{
+    color: #000000;
+    font-weight: 500;
+  }
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+.icon-bar {
+  display: flex;
+  margin: 40px 30px;
+  gap: 20px;
+}
+.icon-img {
+  width: 10px;
+  height: 11px;
+}
+
+
+
+.search-icon {
+  position: absolute;
+  left: 10px; /* Adjust to position the icon correctly */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa; /* Adjust icon color */
+}
+
+/* Product Card Styles */
+.product-tag {
+  display: flex;
+  justify-content: space-around;
+  }
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  position: relative;
+}
+
+.discount-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Lato' sans-serif;
+}
+.discount-tag-1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #543920;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Lato' sans-serif;
+  background-color: white;
+  padding: 25px;
+  border-radius: 0px 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 5px;
+  text-align: center;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  gap: 60px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #9A9A9A;
+  font-size: 14px;
+  margin-left: 8.0em;
+}
+
+.product-name {
+  font-size: 21px;
+  text-align: left;
+  color: #000000;
+  margin-top: 10px;
+  font-family: 'Lato' sans-serif;
+}
+/*CSS for Checkout Page*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-right: 150px;
+  margin-left: 150px; 
+}
+
+.checkout-container {
+  background-color: #EFEFEF;
+  padding: 20px;
+  border-radius: 10px;
+  height: 50%;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.section label i {
+  margin-right: 10px;
+}
+
+.section input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.place-order {
+  background-color: #f0a500;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 100px;
+}
+.card-icon {
+  display: flex;
+  gap: 25px;
+}
+.fas {
+  background-color: #D1D1D1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.place-order:hover {
+  background-color: #d18f00;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .product-card {
+      width: 100%;
+      margin: 10px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive Design */
+@media (min-width: 768px) {
+    .category-item, .sale-item {
+        display: inline-block;
+        width: 48%;
+        margin-right: 1%;
+    }
+
+    .category-item:last-child, .sale-item:last-child {
+        margin-right: 0;
+    }
+}
+
+/* Additional CSS for Icons */
+.category-item .icons, .sale-item .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.category-item .icons img, .sale-item .icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 0.5em;
+}

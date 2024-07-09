@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Buddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+     integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans&display=swap" rel="stylesheet">
+       
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="icons/Homeicon.svg" id="home_icon">
+          <span id="home">home</span><span id="buddy">buddy</span></div>
+          <div class="search-bar">
+            <input type="text" placeholder="Search products......">
+            </div>
+          <div id="pages">
+          <span><a href="index.html" id="home">Home</a></span>
+          <span><a href="cart.html" target="_blank">Cart</a></span>
+          <span><a href="checkout.html" target="_blank">Account</a></span>          
+          <span>Notification</span>
+          </div>
+        </div>
+    </header>
+
+    <main>
+    <section>
+      <h2>Our New Categories<h2>
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade" style="border-radius: 10px;">
+      <!--<div class="numbertext">1 / 3</div>-->
+      <img src="images/Normadic.jpeg" style="width:100%; height: 500px;">
+      <div class="text">
+        <span class="topleft">New</span>
+        <div class="content">
+        <h3>Nordic Tables</h3>
+        <div><a href="nordic.html" target="_blank" class="button-1">View all</a></div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="images/Sofas.jpeg" style="width:100%; height: 500px">
+      <div class="text">
+        <span class="topleft">New</span>
+        <div class="content">
+        <h3>Sofas</h3>
+        <div><a class="button-1" target="_blank" href="sofas.html">View all</a></div>
+        </div>
+    </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="images/Vase.jpeg" style="width:100%; height: 500px;">
+      <div class="text">
+        <span class="topleft">New</span>
+        <div class="content">
+        <h3>Vases</h3>
+        <div><a class="button-1" target="_blank" href="vases.html">View all</a></div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot active" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+        </section>
+        <h2>Clearance Sales</h2>
+        <section class="product-tag">
+          <div class="product-card">
+            <div class="discount-tag-1">5% off</div>
+            <img src="images/Library.jpeg" alt="Minimal Vase" class="product-image">
+            <div class="product-info">
+                <p class="price">₦59,890 <span class="original-price">₦112,874</span></p>
+                <p class="product-name">Open Bookshelf</p>
+            </div>
+        </div>
+          <div class="product-card">
+            <div class="discount-tag-1">5% off</div>
+            <img src="images/Couch.jpeg" alt="Minimal Vase" class="product-image">
+            <div class="product-info">
+                <p class="price">₦30,800 <span class="original-price">₦36,500</span></p>
+                <p class="product-name">Grandpa's Couch</p>
+            </div>
+        </div>
+          <div class="product-card">
+            <div class="discount-tag-1">19% off</div>
+            <img src="images/Nordic Vase.jpeg" alt="Normadic Clay Vase" class="product-image">
+            <div class="product-info">
+                <p class="price">₦9,890 <span class="original-price">₦12,874</span></p>
+                <p class="product-name">Normadic Clay Vase</p>
+            </div>
+        </div>
+        <div class="product-card">
+          <div class="discount-tag-1">19% off</div>
+          <img src="images/chair.jpeg" alt="Sunset Two Seater" class="product-image">
+          <div class="product-info">
+              <p class="price">₦79,890 <span class="original-price">₦92,874</span></p>
+              <p class="product-name">Ocean Blue Seat</p>
+          </div>
+      </div>
+        </section>
+        <section class="product-tag">
+                <div class="product-card">
+                <div class="discount-tag-1">20% off</div>
+                <img src="images/Table.jpeg" alt="Minimal Vase" class="product-image">
+                <div class="product-info">
+                    <p class="price">₦102,253 <span class="original-price">₦152,874</span></p>
+                    <p class="product-name">Raffia Pattern Table</p>
+                </div>
+          </div>
+          <div class="product-card">
+            <div class="discount-tag-1">19% off</div>
+            <img src="images/Vase.jpeg" alt="Sunset Two Seater" class="product-image">
+            <div class="product-info">
+                <p class="price">₦30,800 <span class="original-price">₦38,500</span></p>
+                <p class="product-name">Minimal Vases</p>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <div class="discount-tag-1">20% off</div>
+            <img src="images/Normadic.jpeg" alt="Minimal Vase" class="product-image">
+            <div class="product-info">
+                <p class="price">₦39,890 <span class="original-price">₦42,874</span></p>
+                <p class="product-name">Summer Dinner Table</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+          <div class="discount-tag-1">20% off</div>
+          <img src="images/Couch 1.jpeg" alt="Minimal Vase" class="product-image">
+          <div class="product-info">
+              <p class="price">₦18,253 <span class="original-price">₦19,874</span></p>
+              <p class="product-name">Family of Three Table </p>
+          </div>
+      </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
