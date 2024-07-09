@@ -368,7 +368,7 @@ footer {
 }
 
 .price {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: #333;
   gap: 60px;
@@ -377,7 +377,7 @@ footer {
 .original-price {
   text-decoration: line-through;
   color: #9A9A9A;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 8.0em;
 }
 
